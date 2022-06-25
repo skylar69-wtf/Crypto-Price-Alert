@@ -2,9 +2,9 @@ import json
 import requests
 import time
 import smtplib
-# enter crypto symbol:- example: bitcoin = btc
+
 f = input("Enter the Crypto Short Nam: \n")
-# Enter your price you want to get alerted
+
 price_target = int(input("Enter Price target: "))
 #Enter your price you want to get alerted for loss
 loss_target = int(input("Enter Loss stop: "))
